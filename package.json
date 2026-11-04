@@ -1,16 +1,18 @@
 {
   "name": "amivon-hosting",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "private": true,
-  "description": "AMIVON HOSTING customer hosting portal",
+  "description": "AMIVON HOSTING customer portal with authentication, Namecheap domain search, Paystack checkout and Webuzo provisioning",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "scripts": { "start": "node server.js" },
   "dependencies": {
-    "express": "^4.21.2"
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
   },
-  "engines": {
-    "node": ">=20"
-  }
+  "engines": { "node": ">=20" }
 }
