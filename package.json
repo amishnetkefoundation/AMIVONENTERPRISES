@@ -1,0 +1,13 @@
+{
+  "name": "amivon-hosting",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AMIVON HOSTING customer hosting portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
